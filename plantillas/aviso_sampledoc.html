@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aviso de Cobro</title>
+</head>
+<body>
+    <h1>Aviso de Cobro</h1>
+
+    <p>Estimado/a {{ NOMBRE_CLIENTE }},</p>
+
+    <p>Le informamos de que existe un pago pendiente correspondiente a:</p>
+
+    <ul>
+        <li><strong>Concepto:</strong> {{ CONCEPTO }}</li>
+        <li><strong>Importe:</strong> {{ IMPORTE }} €</li>
+        <li><strong>Fecha límite de pago:</strong> {{ FECHA_LIMITE }}</li>
+    </ul>
+
+    <p>Por favor, realice el pago en la siguiente cuenta:</p>
+
+    <p><strong>IBAN:</strong> {{ IBAN }}</p>
+
+    <p>Si ya ha realizado el pago, ignore este mensaje.</p>
+
+    <p>Atentamente,<br>
+    {{ EMPRESA }}</p>
+</body>
+</html>

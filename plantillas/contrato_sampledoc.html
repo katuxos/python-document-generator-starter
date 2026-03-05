@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contrato de Alquiler</title>
+</head>
+<body>
+    <h1>Contrato de Alquiler</h1>
+
+    <p>En la ciudad de {{ CIUDAD }}, a fecha {{ FECHA }}.</p>
+
+    <h2>Partes</h2>
+    <p><strong>Arrendador:</strong> {{ NOMBRE_CLIENTE }} ({{ DNI_CLIENTE }})</p>
+    <p><strong>Inquilino:</strong> {{ NOMBRE_INQUILINO }} ({{ DNI_INQUILINO }})</p>
+
+    <h2>Inmueble</h2>
+    <p>Dirección del inmueble: {{ DIRECCION_INMUEBLE }}</p>
+
+    <h2>Condiciones</h2>
+    <p>Duración del contrato: {{ DURACION_MESES }} meses</p>
+    <p>Precio mensual: {{ PRECIO_MENSUAL }} €</p>
+    <p>Fianza: {{ FIANZA }} €</p>
+
+    <p>Firmado por ambas partes.</p>
+</body>
+</html>

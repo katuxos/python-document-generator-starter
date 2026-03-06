@@ -24,29 +24,6 @@ Cada cliente del Excel genera su propia carpeta dentro de `/salida`.
 
 ## Estructura del proyecto
 
-starter-legal-docs/
-│
-├── app.py
-├── README.md
-├── icono.ico
-├── Logo.png
-│
-├── plantillas/
-│     ├── contrato_arrendamiento.html
-│     ├── aviso_cobro.html
-│
-├── SampleExcelFile.xlsx
-│
-├── salida/
-│
-└── images/
-├── filesBeforeExecution.png
-├── screen.png
-├── message.png
-├── after.png
-└── pdf.png
-
-### Antes de ejecutar:
 ![Archivos antes de ejecutar](images/filesBeforeExecution.png)
 
 ---
@@ -116,15 +93,9 @@ Instala las dependencias con:
 
 ``` pip install -r requirements.txt ```
 
-El archivo `requirements.txt` incluye:
-
-pandas
-jinja2
-xhtml2pdf
-
 ---
 
-## 🔧 Sugerencias de mejora para quien quiera ampliar el proyecto
+## Sugerencias de mejora para quien quiera ampliar el proyecto
 
 Este starter project está diseñado para ser simple, pero se puede extender fácilmente.  
 Por ejemplo:
